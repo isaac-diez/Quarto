@@ -2,6 +2,60 @@
 title: "My 1st Quarto website"
 ---
 
-This is a Quarto website.
+# This is a Quarto website.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+## Introduction  
+This is a **sample webpage** written in Markdown. Below, you'll find various sections demonstrating Markdown features. Feel free to modify or replace this content.
+
+---
+
+> **Note**: This is a **call-out box** for highlighting important information.  
+> Customize it as needed to grab attention!
+
+---
+
+## Features of the Page
+
+### Ordered List
+
+1. **Interactive Design**  
+   Your webpage adapts to user inputs.  
+2. **Easy Navigation**  
+   Includes intuitive menus and buttons.  
+3. **Scalable Features**  
+   Expandable with plugins and custom scripts.  
+
+### Unordered List
+
+- **Fast Load Times**  
+  Optimized for quick rendering.  
+- **Mobile-Friendly**  
+  Works seamlessly on all devices.  
+- **Secure**  
+  Protects user data with advanced encryption.
+
+---
+
+### Images
+
+#### Standard Image
+![Sample Image](https://via.placeholder.com/400x200 "Sample Placeholder Image")
+
+#### Popout Image  
+Click the image below to view it in full size:  
+[![Sample Image with Popout](https://via.placeholder.com/300x150)](https://via.placeholder.com/1200x600)
+
+---
+
+### Mermaid Diagram  
+Visualize workflows or processes easily with Mermaid diagrams.  
+
+```mermaid
+graph TD
+    A[Start] --> B{Decision?}
+    B -->|Yes| C[Proceed]
+    B -->|No| D[Stop]
+    C --> E[End]
+
