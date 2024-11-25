@@ -9,8 +9,7 @@ To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 ## Introduction  
 This is a **sample webpage** written in Markdown. Below, you'll find various sections demonstrating Markdown features. Feel free to modify or replace this content.
 
----
-
+::: {.callout-note}
 > **Note**: This is a **call-out box** for highlighting important information.  
 > Customize it as needed to grab attention!
 
@@ -41,7 +40,7 @@ This is a **sample webpage** written in Markdown. Below, you'll find various sec
 ### Images
 
 #### Standard Image
-![Sample Image](https://via.placeholder.com/400x200 "Sample Placeholder Image")
+![Mockup Web Library Management core use-case](/images/springboot/LibraryManagementMockUp.png){width="80%"} "Sample Placeholder Image")
 
 #### Popout Image  
 Click the image below to view it in full size:  
@@ -52,10 +51,11 @@ Click the image below to view it in full size:
 ### Mermaid Diagram  
 Visualize workflows or processes easily with Mermaid diagrams.  
 
-```mermaid
+```{mermaid}
 graph TD
     A[Start] --> B{Decision?}
     B -->|Yes| C[Proceed]
     B -->|No| D[Stop]
     C --> E[End]
 
+```
