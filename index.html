@@ -66,6 +66,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="styles.css">
@@ -162,11 +165,8 @@ ul.task-list li input[type="checkbox"] {
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
 <p>This is a <strong>sample webpage</strong> written in Markdown. Below, you’ll find various sections demonstrating Markdown features. Feel free to modify or replace this content.</p>
-<hr>
-<blockquote class="blockquote">
-<p><strong>Note</strong>: This is a <strong>call-out box</strong> for highlighting important information.<br>
-Customize it as needed to grab attention!</p>
-</blockquote>
+<p>::: {.callout-note} &gt; <strong>Note</strong>: This is a <strong>call-out box</strong> for highlighting important information.<br>
+&gt; Customize it as needed to grab attention!</p>
 <hr>
 </section>
 <section id="features-of-the-page" class="level2">
@@ -202,12 +202,7 @@ Protects user data with advanced encryption.</li>
 <h3 class="anchored" data-anchor-id="images">Images</h3>
 <section id="standard-image" class="level4">
 <h4 class="anchored" data-anchor-id="standard-image">Standard Image</h4>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://via.placeholder.com/400x200.png" title="Sample Placeholder Image" class="img-fluid figure-img"></p>
-<figcaption>Sample Image</figcaption>
-</figure>
-</div>
+<p><img src="./images/springboot/LibraryManagementMockUp.png" class="img-fluid" style="width:80.0%" alt="Mockup Web Library Management core use-case"> “Sample Placeholder Image”)</p>
 </section>
 <section id="popout-image" class="level4">
 <h4 class="anchored" data-anchor-id="popout-image">Popout Image</h4>
@@ -219,7 +214,23 @@ Protects user data with advanced encryption.</li>
 <section id="mermaid-diagram" class="level3">
 <h3 class="anchored" data-anchor-id="mermaid-diagram">Mermaid Diagram</h3>
 <p>Visualize workflows or processes easily with Mermaid diagrams.</p>
-<p>```mermaid graph TD A[Start] –&gt; B{Decision?} B –&gt;|Yes| C[Proceed] B –&gt;|No| D[Stop] C –&gt; E[End]</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">graph TD
+    A[Start] --&gt; B{Decision?}
+    B --&gt;|Yes| C[Proceed]
+    B --&gt;|No| D[Stop]
+    C --&gt; E[End]
+
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 
 
 </section>
