@@ -46,21 +46,42 @@
     "href": "index.html",
     "title": "My 1st Quarto website",
     "section": "",
-    "text": "To learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n\nThis is a sample webpage written in Markdown. Below, you’ll find various sections demonstrating Markdown features. Feel free to modify or replace this content.\n::: {.callout-note} &gt; Note: This is a call-out box for highlighting important information.\n&gt; Customize it as needed to grab attention!\n\n\n\n\n\n\n\nInteractive Design\nYour webpage adapts to user inputs.\n\nEasy Navigation\nIncludes intuitive menus and buttons.\n\nScalable Features\nExpandable with plugins and custom scripts.\n\n\n\n\n\nFast Load Times\nOptimized for quick rendering.\n\nMobile-Friendly\nWorks seamlessly on all devices.\n\nSecure\nProtects user data with advanced encryption.\n\n\n\n\n\n\n\n “Sample Placeholder Image”)\n\n\n\nClick the image below to view it in full size:\n\n\n\n\n\n\nVisualize workflows or processes easily with Mermaid diagrams.\n\n\n\n\n\ngraph TD\n    A[Start] --&gt; B{Decision?}\n    B --&gt;|Yes| C[Proceed]\n    B --&gt;|No| D[Stop]\n    C --&gt; E[End]"
+    "text": "To learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n\nThis is a sample webpage written in Markdown. Below, you’ll find various sections demonstrating Markdown features. Feel free to modify or replace this content.\n\n\n\n\n\n\nInteractive Design\nYour webpage adapts to user inputs.\n\nEasy Navigation\nIncludes intuitive menus and buttons.\n\nScalable Features\nExpandable with plugins and custom scripts.\n\n\n\n\n\nFast Load Times\nOptimized for quick rendering.\n\nMobile-Friendly\nWorks seamlessly on all devices.\n\nSecure\nProtects user data with advanced encryption.\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nNote that there are five types of callouts, including: note, warning, important, tip, and caution.\n\n\n\n\n\n\n\n\nTip with Title\n\n\n\nThis is an example of a callout with a title.\n\n\n\n\n\n\n\n\nExpand To Learn About Collapse\n\n\n\n\n\nThis is an example of a ‘folded’ caution callout that can be expanded by the user. You can use collapse=\"true\" to collapse it by default or collapse=\"false\" to make a collapsible callout that is expanded by default."
   },
   {
     "objectID": "index.html#introduction",
     "href": "index.html#introduction",
     "title": "My 1st Quarto website",
     "section": "",
-    "text": "This is a sample webpage written in Markdown. Below, you’ll find various sections demonstrating Markdown features. Feel free to modify or replace this content.\n::: {.callout-note} &gt; Note: This is a call-out box for highlighting important information.\n&gt; Customize it as needed to grab attention!"
+    "text": "This is a sample webpage written in Markdown. Below, you’ll find various sections demonstrating Markdown features. Feel free to modify or replace this content."
   },
   {
     "objectID": "index.html#features-of-the-page",
     "href": "index.html#features-of-the-page",
     "title": "My 1st Quarto website",
     "section": "",
-    "text": "Interactive Design\nYour webpage adapts to user inputs.\n\nEasy Navigation\nIncludes intuitive menus and buttons.\n\nScalable Features\nExpandable with plugins and custom scripts.\n\n\n\n\n\nFast Load Times\nOptimized for quick rendering.\n\nMobile-Friendly\nWorks seamlessly on all devices.\n\nSecure\nProtects user data with advanced encryption.\n\n\n\n\n\n\n\n “Sample Placeholder Image”)\n\n\n\nClick the image below to view it in full size:\n\n\n\n\n\n\nVisualize workflows or processes easily with Mermaid diagrams.\n\n\n\n\n\ngraph TD\n    A[Start] --&gt; B{Decision?}\n    B --&gt;|Yes| C[Proceed]\n    B --&gt;|No| D[Stop]\n    C --&gt; E[End]"
+    "text": "Interactive Design\nYour webpage adapts to user inputs.\n\nEasy Navigation\nIncludes intuitive menus and buttons.\n\nScalable Features\nExpandable with plugins and custom scripts.\n\n\n\n\n\nFast Load Times\nOptimized for quick rendering.\n\nMobile-Friendly\nWorks seamlessly on all devices.\n\nSecure\nProtects user data with advanced encryption."
+  },
+  {
+    "objectID": "index.html#call-outs",
+    "href": "index.html#call-outs",
+    "title": "My 1st Quarto website",
+    "section": "",
+    "text": "Note\n\n\n\nNote that there are five types of callouts, including: note, warning, important, tip, and caution.\n\n\n\n\n\n\n\n\nTip with Title\n\n\n\nThis is an example of a callout with a title.\n\n\n\n\n\n\n\n\nExpand To Learn About Collapse\n\n\n\n\n\nThis is an example of a ‘folded’ caution callout that can be expanded by the user. You can use collapse=\"true\" to collapse it by default or collapse=\"false\" to make a collapsible callout that is expanded by default."
+  },
+  {
+    "objectID": "index.html#images",
+    "href": "index.html#images",
+    "title": "My 1st Quarto website",
+    "section": "Images",
+    "text": "Images\n\nStandard Image\n\n\n\nAn elephant"
+  },
+  {
+    "objectID": "index.html#mermaid-diagram",
+    "href": "index.html#mermaid-diagram",
+    "title": "My 1st Quarto website",
+    "section": "Mermaid Diagram",
+    "text": "Mermaid Diagram\nVisualize workflows or processes easily with Mermaid diagrams.\n\n\n\n\n\ngraph TD\n    A[Start] --&gt; B{Decision?}\n    B --&gt;|Yes| C[Proceed]\n    B --&gt;|No| D[Stop]\n    C --&gt; E[End]\n\n\n\n\n\n\n\n\n\nAn elephant"
   },
   {
     "objectID": "devops/devops-apps-plex.html",
