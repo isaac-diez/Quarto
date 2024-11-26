@@ -7,13 +7,8 @@ title: "My 1st Quarto website"
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
 ## Introduction  
+
 This is a **sample webpage** written in Markdown. Below, you'll find various sections demonstrating Markdown features. Feel free to modify or replace this content.
-
-::: {.callout-note}
-> **Note**: This is a **call-out box** for highlighting important information.  
-> Customize it as needed to grab attention!
-
----
 
 ## Features of the Page
 
@@ -35,21 +30,47 @@ This is a **sample webpage** written in Markdown. Below, you'll find various sec
 - **Secure**  
   Protects user data with advanced encryption.
 
----
+## Call-outs
 
-### Images
+::: {.callout-note}
+Note that there are five types of callouts, including:
+`note`, `warning`, `important`, `tip`, and `caution`.
+:::
 
-#### Standard Image
-![Mockup Web Library Management core use-case](/images/springboot/LibraryManagementMockUp.png){width="80%"} "Sample Placeholder Image")
+::: {.callout-tip}
+## Tip with Title
 
-#### Popout Image  
-Click the image below to view it in full size:  
-[![Sample Image with Popout](https://via.placeholder.com/300x150)](https://via.placeholder.com/1200x600)
+This is an example of a callout with a title.
+:::
 
----
+::: {.callout-caution collapse="true"}
+## Expand To Learn About Collapse
 
-### Mermaid Diagram  
-Visualize workflows or processes easily with Mermaid diagrams.  
+This is an example of a 'folded' caution callout that can be expanded by the user. You can use `collapse="true"` to collapse it by default or `collapse="false"` to make a collapsible callout that is expanded by default.
+:::
+
+# Employee Information
+
+This section contains a table of employee data:
+
+| Name      | Age | Department     | Location       |
+|-----------|-----|----------------|----------------|
+| John Doe  | 30  | Engineering    | New York       |
+| Jane Smith| 25  | Marketing      | London         |
+| Bob Brown | 40  | HR             | San Francisco  |
+| Alice Lee | 29  | Sales          | Tokyo          |
+
+This is the end of the employee information section.
+
+## Images
+
+### Standard Image
+
+![An elephant](https://quarto.org/docs/authoring/elephant.png){.lightbox}
+
+## Mermaid Diagram  
+
+Visualize workflows or processes easily with Mermaid diagrams.
 
 ```{mermaid}
 graph TD
@@ -57,5 +78,4 @@ graph TD
     B -->|Yes| C[Proceed]
     B -->|No| D[Stop]
     C --> E[End]
-
 ```
